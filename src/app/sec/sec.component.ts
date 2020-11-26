@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-presedent',
-  templateUrl: './presedent.component.html',
-  styleUrls: ['./presedent.component.css']
+  selector: 'app-sec',
+  templateUrl: './sec.component.html',
+  styleUrls: ['./sec.component.css']
 })
-export class PresedentComponent implements OnInit {
+export class SecComponent implements OnInit {
+
   appointment : any;  
   ClickedRow:any;
   HighlightRow : Number;
